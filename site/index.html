@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stone &amp; Style Solutions — Quartz Countertops, Aluminium Glass Doors &amp; Board Supply | Harare</title>
+<meta name="description" content="Stone &amp; Style Solutions supplies and fabricates quartz countertops, aluminium glass doors for built-in cupboards, and melamine boards with professional cutting and edging. 14 Telford Road, Graniteside, Harare.">
+<meta name="theme-color" content="#003756">
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/favicon.png">
+
+<meta property="og:title" content="Stone &amp; Style Solutions — Surfaces, Doors &amp; Boards">
+<meta property="og:description" content="Quartz countertops, aluminium glass wardrobe doors and board supply with precision cutting and edging. Made to measure in Harare.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/img/hero-pantry.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+/* ============ TOKENS ============ */
+:root{
+  --navy:#003756;
+  --navy-900:#00243a;
+  --navy-700:#0a4a70;
+  --navy-050:#eef4f8;
+  --grey:#686a6c;
+  --tan:#967357;
+  --tan-light:#aa8c77;
+  --brown:#64401e;
+  --olive:#807e5c;
+
+  --ink:#12181c;
+  --body:#4d565c;
+  --line:#e4e2dd;
+  --paper:#ffffff;
+  --shell:#faf8f5;
+  --sand:#f2ede6;
+
+  --r-sm:8px; --r:14px; --r-lg:22px; --r-xl:34px;
+  --shadow-sm:0 2px 8px rgba(0,35,56,.06);
+  --shadow:0 18px 44px -22px rgba(0,35,56,.35);
+  --shadow-lg:0 40px 80px -40px rgba(0,35,56,.55);
+  --max:1220px;
+  --pad:clamp(20px,5vw,64px);
+  --sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+  --display:'Poppins','Inter',-apple-system,Segoe UI,Helvetica,Arial,sans-serif;
+}
+
+/* ============ BASE ============ */
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--paper);color:var(--body);
+  font-family:var(--sans);font-size:17px;line-height:1.65;font-weight:400;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4{font-family:var(--display);color:var(--ink);margin:0;line-height:1.1;letter-spacing:-.02em;font-weight:700}
+h1{font-size:clamp(2.5rem,6.2vw,4.4rem);font-weight:800;letter-spacing:-.035em}
+h2{font-size:clamp(2rem,4.4vw,3.1rem);font-weight:800;letter-spacing:-.03em}
+h3{font-size:clamp(1.15rem,2vw,1.45rem)}
+p{margin:0 0 1em}
+.wrap{max-width:var(--max);margin:0 auto;padding-inline:var(--pad)}
+section{position:relative}
+section[id]{scroll-margin-top:96px}
+:focus-visible{outline:3px solid var(--tan);outline-offset:3px;border-radius:6px}
+.sec{padding-block:clamp(72px,10vw,132px)}
+
+/* ============ SHARED BITS ============ */
+.eyebrow{
+  font-family:var(--display);font-size:.72rem;font-weight:700;letter-spacing:.22em;
+  text-transform:uppercase;color:var(--tan);display:flex;align-items:center;gap:12px;margin-bottom:18px;
+}
+.eyebrow::before{content:"";width:30px;height:2px;background:var(--tan);border-radius:2px;flex:none}
+.eyebrow.center{justify-content:center}
+.lead{font-size:clamp(1.02rem,1.6vw,1.16rem);color:var(--body);max-width:60ch}
+.sec-head{max-width:720px;margin-bottom:clamp(40px,5vw,64px)}
+.sec-head.center{margin-inline:auto;text-align:center}
+.sec-head.center .eyebrow{justify-content:center}
+.sec-head h2 + p{margin-top:20px}
+
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  font-family:var(--display);font-weight:600;font-size:.94rem;letter-spacing:.01em;
+  padding:15px 28px;border-radius:100px;border:1.5px solid transparent;cursor:pointer;
+  transition:transform .25s cubic-bezier(.2,.8,.3,1),box-shadow .25s,background .25s,color .25s,border-color .25s;
+  white-space:nowrap;
+}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--navy);color:#fff;box-shadow:0 12px 26px -14px rgba(0,55,86,.9)}
+.btn-primary:hover{background:var(--navy-700);box-shadow:0 18px 34px -14px rgba(0,55,86,.95)}
+.btn-wa{background:#1f9d55;color:#fff;box-shadow:0 12px 26px -14px rgba(31,157,85,.95)}
+.btn-wa:hover{background:#188045}
+.btn-ghost{border-color:rgba(255,255,255,.4);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.75)}
+.btn-outline{border-color:var(--line);color:var(--ink);background:#fff}
+.btn-outline:hover{border-color:var(--navy);color:var(--navy)}
+.btn svg{width:18px;height:18px;flex:none}
+
+.mosaic-rule{display:flex;gap:5px;align-items:center}
+.mosaic-rule i{display:block;width:14px;height:8px;border-radius:2px 4px 3px 5px;opacity:.9}
+
+/* ============ HEADER ============ */
+.header{
+  position:fixed;inset:0 0 auto 0;z-index:90;padding:16px 0;
+  transition:background .35s,box-shadow .35s,padding .35s,backdrop-filter .35s;
+}
+.header.scrolled{background:rgba(255,255,255,.93);backdrop-filter:blur(14px);box-shadow:0 1px 0 rgba(0,35,56,.08),0 12px 30px -24px rgba(0,35,56,.5);padding:10px 0}
+.header .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;align-items:center;background:#fff;border-radius:12px;padding:9px 16px;box-shadow:var(--shadow-sm);transition:padding .35s}
+.header.scrolled .brand{box-shadow:none;padding:4px 0;background:transparent}
+.brand img{height:clamp(30px,3.6vw,40px);width:auto}
+.nav{display:flex;align-items:center;gap:clamp(18px,2.4vw,34px)}
+.nav a{
+  font-family:var(--display);font-size:.9rem;font-weight:500;color:#fff;position:relative;padding:6px 0;
+  transition:color .25s;text-shadow:0 1px 12px rgba(0,25,40,.5);
+}
+.header.scrolled .nav a{color:var(--ink);text-shadow:none}
+.nav a::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:2px;background:var(--tan);transition:right .3s cubic-bezier(.2,.8,.3,1)}
+.nav a:hover::after{right:0}
+.nav a:hover{color:var(--tan-light)}
+.header.scrolled .nav a:hover{color:var(--navy)}
+.header-cta{display:flex;align-items:center;gap:12px}
+.header .btn{padding:12px 22px;font-size:.88rem}
+.header .btn-ghost{border-color:rgba(255,255,255,.55);backdrop-filter:blur(6px)}
+.header.scrolled .btn-ghost{border-color:var(--line);color:var(--ink)}
+.header.scrolled .btn-ghost:hover{background:var(--navy);border-color:var(--navy);color:#fff}
+
+.burger{display:none;width:46px;height:46px;border:0;background:rgba(255,255,255,.14);backdrop-filter:blur(8px);border-radius:12px;cursor:pointer;padding:0;place-items:center}
+.header.scrolled .burger{background:var(--shell)}
+.burger span{display:block;width:20px;height:2px;background:#fff;border-radius:2px;margin:4px auto;transition:.3s}
+.header.scrolled .burger span{background:var(--ink)}
+.mobile-nav{
+  position:fixed;inset:0;z-index:95;background:var(--navy-900);
+  display:flex;flex-direction:column;justify-content:center;gap:6px;padding:32px var(--pad);
+  transform:translateY(-102%);transition:transform .5s cubic-bezier(.7,0,.2,1);
+}
+.mobile-nav.open{transform:translateY(0)}
+.mobile-nav a{font-family:var(--display);font-weight:600;font-size:clamp(1.6rem,7vw,2.4rem);color:#fff;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.1)}
+.mobile-nav a:last-of-type{border:0}
+.mobile-nav .btn{margin-top:26px;align-self:flex-start}
+.mobile-close{position:absolute;top:22px;right:var(--pad);width:44px;height:44px;border:0;background:rgba(255,255,255,.1);border-radius:12px;color:#fff;font-size:26px;cursor:pointer;line-height:1}
+
+/* ============ HERO ============ */
+.hero{background:var(--navy-900);color:#fff;position:relative;overflow:hidden;padding:clamp(130px,16vw,180px) 0 clamp(72px,9vw,110px)}
+.hero::before{
+  content:"";position:absolute;inset:0;
+  background:radial-gradient(120% 90% at 8% 0%,rgba(10,74,112,.85) 0%,rgba(0,36,58,0) 60%),
+             radial-gradient(70% 70% at 95% 100%,rgba(150,115,87,.35) 0%,rgba(0,36,58,0) 65%);
+}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(36px,5vw,72px);align-items:center}
+.hero h1{color:#fff}
+.hero h1 em{font-style:normal;color:var(--tan-light);display:block}
+.hero p.lead{color:rgba(255,255,255,.78);margin-top:22px;font-size:clamp(1.03rem,1.5vw,1.18rem)}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:36px}
+.hero-meta{display:flex;flex-wrap:wrap;gap:clamp(16px,2vw,30px);margin-top:44px;padding-top:26px;border-top:1px solid rgba(255,255,255,.14)}
+.hero-meta div{min-width:96px}
+.hero-meta strong{display:block;font-family:var(--display);font-size:1.5rem;font-weight:700;color:#fff;line-height:1.2}
+.hero-meta span{font-size:.83rem;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.55)}
+
+.hero-visual{position:relative}
+.hero-visual img{border-radius:var(--r-xl);box-shadow:var(--shadow-lg);width:100%;height:clamp(420px,58vw,620px);object-fit:cover;object-position:center 42%}
+.hero-visual::after{
+  content:"";position:absolute;inset:auto -22px -22px auto;width:58%;height:52%;border:1.5px solid rgba(170,140,119,.45);
+  border-radius:var(--r-xl);z-index:-0;pointer-events:none;
+}
+.float-card{
+  position:absolute;left:-26px;bottom:38px;background:#fff;color:var(--ink);border-radius:var(--r);
+  padding:16px 22px;box-shadow:var(--shadow-lg);display:flex;align-items:center;gap:14px;max-width:250px;
+}
+.float-card .dot{width:38px;height:38px;border-radius:10px;background:var(--sand);display:grid;place-items:center;flex:none}
+.float-card .dot svg{width:20px;height:20px;color:var(--navy)}
+.float-card b{display:block;font-family:var(--display);font-size:.95rem;line-height:1.25}
+.float-card small{font-size:.78rem;color:var(--grey)}
+
+/* ============ MARQUEE STRIP ============ */
+.strip{background:var(--navy);color:rgba(255,255,255,.9);padding:16px 0;overflow:hidden;white-space:nowrap}
+.strip-track{display:inline-flex;gap:44px;align-items:center;animation:slide 34s linear infinite;font-family:var(--display);font-size:.82rem;letter-spacing:.18em;text-transform:uppercase;font-weight:600;padding-right:44px}
+.strip span{display:inline-flex;align-items:center;gap:44px}
+.strip i{width:7px;height:7px;border-radius:2px;background:var(--tan-light);display:inline-block;transform:rotate(20deg)}
+@keyframes slide{to{transform:translateX(-50%)}}
+
+/* ============ SERVICES ============ */
+.services{background:var(--shell)}
+.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,2.2vw,30px)}
+.svc{
+  background:#fff;border-radius:var(--r-lg);overflow:hidden;border:1px solid var(--line);
+  display:flex;flex-direction:column;transition:transform .4s cubic-bezier(.2,.8,.3,1),box-shadow .4s,border-color .4s;
+}
+.svc:hover{transform:translateY(-8px);box-shadow:var(--shadow);border-color:transparent}
+.svc-img{aspect-ratio:16/11;overflow:hidden;background:var(--sand)}
+.svc-img img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.8,.3,1)}
+.svc:hover .svc-img img{transform:scale(1.06)}
+.svc-body{padding:28px 28px 30px;display:flex;flex-direction:column;flex:1}
+.svc-num{font-family:var(--display);font-size:.72rem;font-weight:700;letter-spacing:.2em;color:var(--tan);margin-bottom:12px}
+.svc h3{margin-bottom:10px}
+.svc p{font-size:.96rem;margin-bottom:18px}
+.svc ul{list-style:none;margin:0 0 22px;padding:0;display:flex;flex-direction:column;gap:9px}
+.svc li{font-size:.9rem;display:flex;gap:10px;align-items:flex-start;color:var(--body)}
+.svc li::before{content:"";width:6px;height:6px;border-radius:2px;background:var(--olive);margin-top:8px;flex:none;transform:rotate(20deg)}
+.svc .link{margin-top:auto;font-family:var(--display);font-weight:600;font-size:.9rem;color:var(--navy);display:inline-flex;align-items:center;gap:8px}
+.svc .link svg{width:16px;height:16px;transition:transform .3s}
+.svc:hover .link svg{transform:translateX(5px)}
+
+/* ============ STONE RANGE ============ */
+.range{background:#fff}
+.range-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:clamp(14px,1.6vw,22px)}
+.stone{border-radius:var(--r-lg);overflow:hidden;background:var(--shell);border:1px solid var(--line);transition:transform .4s cubic-bezier(.2,.8,.3,1),box-shadow .4s}
+.stone:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
+.stone-swatch{aspect-ratio:5/4;position:relative;overflow:hidden}
+.stone-swatch img{width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.2,.8,.3,1)}
+.stone:hover .stone-swatch img{transform:scale(1.08)}
+.stone-swatch::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,36,58,0) 55%,rgba(0,36,58,.45) 100%)}
+.stone-tag{
+  position:absolute;left:14px;bottom:14px;z-index:2;background:rgba(255,255,255,.94);color:var(--navy);
+  font-family:var(--display);font-size:.68rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
+  padding:7px 13px;border-radius:100px;
+}
+.stone-body{padding:20px 22px 24px}
+.stone-body h3{font-size:1.12rem;margin-bottom:8px}
+.stone-body p{font-size:.9rem;margin-bottom:14px;color:var(--body)}
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chip{font-size:.69rem;font-weight:500;padding:4px 9px;border-radius:100px;background:#fff;border:1px solid var(--line);color:var(--grey);white-space:nowrap}
+.range-note{margin-top:clamp(32px,4vw,48px);background:var(--navy-050);border-radius:var(--r-lg);padding:clamp(24px,3.4vw,38px);display:flex;flex-wrap:wrap;align-items:center;gap:22px;justify-content:space-between}
+.range-note p{margin:0;max-width:62ch;font-size:.98rem}
+.range-note strong{color:var(--navy);font-family:var(--display)}
+
+/* ============ SPLIT FEATURE ============ */
+.feature{background:var(--shell)}
+.feature .wrap{display:grid;grid-template-columns:1fr 1fr;gap:clamp(36px,5vw,80px);align-items:center}
+.feature.flip .feature-media{order:2}
+.feature-media{position:relative}
+.feature-media img{border-radius:var(--r-xl);box-shadow:var(--shadow);width:100%;aspect-ratio:3/2;object-fit:cover}
+.feature-media .badge{
+  position:absolute;right:-16px;top:-16px;background:var(--navy);color:#fff;border-radius:var(--r);
+  padding:16px 20px;box-shadow:var(--shadow);text-align:center;
+}
+.feature-media .badge b{display:block;font-family:var(--display);font-size:1.6rem;font-weight:800;line-height:1}
+.feature-media .badge small{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.65)}
+.spec-list{list-style:none;margin:26px 0 32px;padding:0;display:grid;gap:14px}
+.spec-list li{display:flex;gap:14px;align-items:flex-start;font-size:.98rem}
+.spec-list svg{width:20px;height:20px;color:var(--olive);flex:none;margin-top:3px}
+
+/* ============ PROCESS ============ */
+.process{background:var(--navy-900);color:#fff}
+.process h2{color:#fff}
+.process .lead{color:rgba(255,255,255,.7)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(16px,2vw,26px);margin-top:clamp(36px,4vw,54px)}
+.step{padding:30px 26px;border-radius:var(--r-lg);background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.1);transition:background .35s,transform .35s,border-color .35s}
+.step:hover{background:rgba(255,255,255,.08);border-color:rgba(170,140,119,.5);transform:translateY(-6px)}
+.step b{display:grid;place-items:center;width:44px;height:44px;border-radius:12px;background:var(--tan);color:#fff;font-family:var(--display);font-weight:700;margin-bottom:20px}
+.step h3{color:#fff;font-size:1.08rem;margin-bottom:9px}
+.step p{color:rgba(255,255,255,.66);font-size:.92rem;margin:0}
+
+/* ============ GALLERY ============ */
+.gallery{background:#fff}
+.gal-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:190px;gap:clamp(10px,1.4vw,18px)}
+.gal-item{position:relative;overflow:hidden;border-radius:var(--r);cursor:zoom-in;background:var(--sand)}
+.gal-item img{width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.2,.8,.3,1)}
+.gal-item:hover img{transform:scale(1.07)}
+.gal-item::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,36,58,0) 50%,rgba(0,36,58,.55));opacity:0;transition:opacity .4s}
+.gal-item:hover::after{opacity:1}
+.gal-item figcaption{
+  position:absolute;left:16px;bottom:14px;z-index:2;color:#fff;font-family:var(--display);font-weight:600;font-size:.88rem;
+  opacity:0;transform:translateY(8px);transition:.4s;
+}
+.gal-item:hover figcaption{opacity:1;transform:none}
+.g-tall{grid-row:span 2}
+.g-wide{grid-column:span 2}
+
+.lightbox{position:fixed;inset:0;z-index:120;background:rgba(0,20,33,.94);display:none;align-items:center;justify-content:center;padding:24px;backdrop-filter:blur(6px)}
+.lightbox.open{display:flex}
+.lightbox img{max-width:min(1100px,92vw);max-height:86vh;border-radius:var(--r);box-shadow:var(--shadow-lg);object-fit:contain}
+.lightbox button{position:absolute;top:20px;right:24px;width:48px;height:48px;border:0;border-radius:14px;background:rgba(255,255,255,.12);color:#fff;font-size:26px;cursor:pointer}
+
+/* ============ WHY ============ */
+.why{background:var(--sand)}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,2.4vw,32px)}
+.why-card{background:#fff;border-radius:var(--r-lg);padding:32px 28px;border:1px solid rgba(0,0,0,.04)}
+.why-card .ic{width:46px;height:46px;border-radius:13px;display:grid;place-items:center;margin-bottom:20px;background:var(--navy-050)}
+.why-card .ic svg{width:22px;height:22px;color:var(--navy)}
+.why-card h3{font-size:1.06rem;margin-bottom:9px}
+.why-card p{font-size:.94rem;margin:0}
+
+/* ============ CONTACT ============ */
+.contact{background:var(--navy);color:#fff;overflow:hidden}
+.contact h2{color:#fff}
+.contact .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(36px,5vw,72px);align-items:start}
+.contact .lead{color:rgba(255,255,255,.75)}
+.contact-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:32px}
+.info-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:var(--r-lg);padding:clamp(26px,3vw,36px);backdrop-filter:blur(6px)}
+.info-row{display:flex;gap:16px;padding:18px 0;border-bottom:1px solid rgba(255,255,255,.1)}
+.info-row:last-child{border:0;padding-bottom:0}
+.info-row:first-child{padding-top:0}
+.info-row .ic{width:42px;height:42px;border-radius:12px;background:rgba(255,255,255,.1);display:grid;place-items:center;flex:none}
+.info-row .ic svg{width:19px;height:19px;color:var(--tan-light)}
+.info-row h4{font-family:var(--display);font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.55);margin-bottom:6px;font-weight:600}
+.info-row p{margin:0;color:#fff;font-size:1rem;line-height:1.5}
+.info-row a:hover{color:var(--tan-light)}
+.hours{display:grid;gap:5px;font-size:.97rem;color:#fff}
+.hours span{display:flex;justify-content:space-between;gap:18px;max-width:280px}
+.hours span i{font-style:normal;color:rgba(255,255,255,.6)}
+
+/* ============ FOOTER ============ */
+.footer{background:var(--navy-900);color:rgba(255,255,255,.62);padding-top:clamp(56px,7vw,84px)}
+.footer-top{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:clamp(28px,4vw,54px);padding-bottom:48px}
+.footer img.flogo{height:56px;width:auto;margin-bottom:20px}
+.footer p{font-size:.94rem;max-width:38ch}
+.footer h4{font-family:var(--display);color:#fff;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;margin-bottom:18px;font-weight:600}
+.footer ul{list-style:none;margin:0;padding:0;display:grid;gap:11px;font-size:.94rem}
+.footer ul a:hover{color:var(--tan-light)}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding:22px 0 28px;display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;font-size:.85rem}
+
+/* ============ FLOATING WHATSAPP ============ */
+.wa-float{
+  position:fixed;right:20px;bottom:20px;z-index:80;width:58px;height:58px;border-radius:50%;
+  background:#1f9d55;display:grid;place-items:center;box-shadow:0 14px 30px -10px rgba(31,157,85,.75);
+  transition:transform .3s;
+}
+.wa-float:hover{transform:scale(1.08)}
+.wa-float svg{width:28px;height:28px;color:#fff}
+
+/* ============ REVEAL ============ */
+.rv{opacity:0;transform:translateY(28px);transition:opacity .8s cubic-bezier(.2,.8,.3,1),transform .8s cubic-bezier(.2,.8,.3,1)}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  .rv{opacity:1;transform:none;transition:none}
+  .strip-track{animation:none}
+  html{scroll-behavior:auto}
+}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width:1180px){
+  .range-grid{grid-template-columns:repeat(3,1fr)}
+}
+@media (max-width:1080px){
+  .svc-grid{grid-template-columns:1fr 1fr}
+  .steps{grid-template-columns:1fr 1fr}
+  .why-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:760px){
+  .range-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:900px){
+  .nav,.header-cta .btn-outline{display:none}
+  .burger{display:grid}
+  .hero .wrap,.feature .wrap,.contact .wrap{grid-template-columns:1fr}
+  .feature.flip .feature-media{order:0}
+  .hero-visual{max-width:520px;margin-inline:auto;width:100%}
+  .float-card{left:12px}
+  .gal-grid{grid-template-columns:repeat(2,1fr);grid-auto-rows:160px}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  .svc-grid,.why-grid,.steps,.range-grid{grid-template-columns:1fr}
+  .range-note{flex-direction:column;align-items:flex-start}
+  .hero-actions .btn,.contact-actions .btn{flex:1 1 100%}
+  .g-wide{grid-column:span 2}
+  .g-tall{grid-row:span 1}
+  .float-card{position:static;margin-top:-30px;margin-inline:12px;max-width:none}
+}
+</style>
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header" id="header">
+  <div class="wrap">
+    <a href="#top" class="brand" aria-label="Stone &amp; Style Solutions — home">
+      <img src="assets/img/logo-horizontal.png" alt="Stone &amp; Style Solutions">
+    </a>
+    <nav class="nav">
+      <a href="#services">Services</a>
+      <a href="#range">Quartz Range</a>
+      <a href="#doors">Glass Doors</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Visit Us</a>
+    </nav>
+    <div class="header-cta">
+      <a class="btn btn-outline" href="tel:+263785107913">+263 78 510 7913</a>
+      <a class="btn btn-primary" href="#contact">Get a Quote</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+  <button class="mobile-close" id="mobileClose" aria-label="Close menu">&times;</button>
+  <a href="#services">Services</a>
+  <a href="#range">Quartz Range</a>
+  <a href="#doors">Glass Doors</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Visit Us</a>
+  <a class="btn btn-wa" href="https://wa.me/263785107913?text=Hi%20Stone%20%26%20Style%20Solutions%2C%20I%27d%20like%20a%20quote." target="_blank" rel="noopener">Chat on WhatsApp</a>
+</div>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Boards · Surfaces · Doors</div>
+      <h1>Surfaces built to last. <em>Finishes built to impress.</em></h1>
+      <p class="lead">From quartz countertops cut to your exact template, to aluminium glass doors that turn a cupboard into a centrepiece — Stone &amp; Style Solutions supplies, cuts, edges and installs it all from our workshop in Graniteside, Harare.</p>
+      <div class="hero-actions">
+        <a class="btn btn-wa" href="https://wa.me/263785107913?text=Hi%20Stone%20%26%20Style%20Solutions%2C%20I%27d%20like%20a%20quote%20for%3A" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37s-1.04 1.02-1.04 2.48 1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.42-.07-.12-.27-.2-.57-.35zM12.04 21.5h-.01a9.4 9.4 0 0 1-4.79-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.38 9.38 0 0 1-1.44-5.01c0-5.18 4.22-9.4 9.42-9.4a9.35 9.35 0 0 1 6.65 2.76 9.32 9.32 0 0 1 2.76 6.65c0 5.19-4.23 9.41-9.42 9.41zM20.52 3.49A11.78 11.78 0 0 0 12.04 0C5.5 0 .18 5.32.18 11.86c0 2.09.55 4.13 1.59 5.93L.08 24l6.35-1.66a11.83 11.83 0 0 0 5.61 1.43h.01c6.54 0 11.86-5.32 11.86-11.86 0-3.17-1.23-6.15-3.39-8.42z"/></svg>
+          WhatsApp us
+        </a>
+        <a class="btn btn-ghost" href="#range">See the quartz range</a>
+      </div>
+      <div class="hero-meta">
+        <div><strong>5</strong><span>Quartz colours</span></div>
+        <div><strong>3</strong><span>Board finishes</span></div>
+        <div><strong>Made</strong><span>To measure</span></div>
+        <div><strong>Mon–Sat</strong><span>Open in Harare</span></div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <img src="assets/img/hero-pantry.jpg" alt="Aluminium glass display cupboard with warm oak interior and integrated LED lighting in a modern open-plan kitchen" width="1122" height="1402">
+      <div class="float-card">
+        <span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 7l9 5 9-5-9-5Z"/><path d="m3 17 9 5 9-5"/><path d="m3 12 9 5 9-5"/></svg></span>
+        <span><b>Cut &amp; edged in-house</b><small>Precision panels, ready to fit</small></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= STRIP ================= -->
+<div class="strip" aria-hidden="true">
+  <div class="strip-track">
+    <span>Quartz Countertops <i></i> Aluminium Glass Doors <i></i> Melamine Boards <i></i> Cutting &amp; Edging <i></i> Vanities <i></i> Office Desks <i></i> Kitchen Islands <i></i> Built-in Cupboards <i></i></span>
+    <span>Quartz Countertops <i></i> Aluminium Glass Doors <i></i> Melamine Boards <i></i> Cutting &amp; Edging <i></i> Vanities <i></i> Office Desks <i></i> Kitchen Islands <i></i> Built-in Cupboards <i></i></span>
+  </div>
+</div>
+
+<!-- ================= SERVICES ================= -->
+<section class="sec services" id="services">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="eyebrow">What we do</div>
+      <h2>Three things, done properly.</h2>
+      <p class="lead">We are a supplier and a fabricator. That means the board you choose, the stone you pick and the door that frames it all come from one place — measured, machined and finished by the same team.</p>
+    </div>
+
+    <div class="svc-grid">
+      <article class="svc rv">
+        <div class="svc-img"><img src="assets/img/boards.jpg" alt="Stack of high gloss black, white and red melamine boards on a marble surface" loading="lazy"></div>
+        <div class="svc-body">
+          <div class="svc-num">01 — Supply</div>
+          <h3>Boards, cutting &amp; edging</h3>
+          <p>White melamine, colour melamine and high gloss board — supplied whole or cut to your panel list with clean, sealed edging.</p>
+          <ul>
+            <li>White melamine — clean, timeless, versatile</li>
+            <li>Colour melamine — bold statements, your way</li>
+            <li>High gloss — sleek, reflective, luxury-ready</li>
+            <li>Panel cutting to your dimensions + edge banding</li>
+          </ul>
+          <a class="link" href="#contact">Send us your cutting list <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+        </div>
+      </article>
+
+      <article class="svc rv">
+        <div class="svc-img"><img src="assets/img/wardrobe-light.jpg" alt="Aluminium framed glass wardrobe doors with oak interior and LED strip lighting in a bright bedroom" loading="lazy"></div>
+        <div class="svc-body">
+          <div class="svc-num">02 — Fabricate</div>
+          <h3>Aluminium glass doors</h3>
+          <p>Made-to-measure aluminium and glass doors for built-in cupboards, wardrobes and display pantries. Matte black frames, warm oak interiors, built-in LED.</p>
+          <ul>
+            <li>Bedroom wardrobes &amp; walk-in closets</li>
+            <li>Kitchen display pantries &amp; servery units</li>
+            <li>Integrated LED lighting on request</li>
+            <li>From <strong>$100</strong> per square metre</li>
+          </ul>
+          <a class="link" href="#doors">See how they're built <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+        </div>
+      </article>
+
+      <article class="svc rv">
+        <div class="svc-img"><img src="assets/img/stone-sparkle-grey.jpg" alt="Sparkle Grey quartz countertop on a kitchen island with timber bar stools" loading="lazy"></div>
+        <div class="svc-body">
+          <div class="svc-num">03 — Finish</div>
+          <h3>Quartz countertops</h3>
+          <p>Engineered quartz for kitchens, bars, vanities and desks — templated on site, cut to fit and polished to a hard-wearing finish.</p>
+          <ul>
+            <li>Kitchen counters, islands &amp; bar tops</li>
+            <li>Bathroom vanities &amp; splashbacks</li>
+            <li>Office desks &amp; reception counters</li>
+            <li>Five colours in stock — see the range</li>
+          </ul>
+          <a class="link" href="#range">Browse the colours <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= QUARTZ RANGE ================= -->
+<section class="sec range" id="range">
+  <div class="wrap">
+    <div class="sec-head center rv">
+      <div class="eyebrow center">The quartz range</div>
+      <h2>Five surfaces. Every room covered.</h2>
+      <p class="lead" style="margin-inline:auto">Engineered quartz is dense, non-porous and built for daily life — it resists scratches and stains far better than natural stone, and it never needs sealing. Pick the character you want; we'll handle the rest.</p>
+    </div>
+
+    <div class="range-grid">
+      <article class="stone rv">
+        <div class="stone-swatch">
+          <img src="assets/img/stone-sparkle-black.jpg" alt="Sparkle Black quartz surface with crystal flecks" loading="lazy">
+          <span class="stone-tag">Sparkle Black</span>
+        </div>
+        <div class="stone-body">
+          <h3>Sparkle Black</h3>
+          <p>Deep charcoal with crystal flecks that catch the light. Bold by day, brilliant at night.</p>
+          <div class="chips"><span class="chip">Statement islands</span><span class="chip">Bar counters</span><span class="chip">Executive desks</span></div>
+        </div>
+      </article>
+
+      <article class="stone rv">
+        <div class="stone-swatch">
+          <img src="assets/img/stone-sparkle-grey.jpg" alt="Sparkle Grey quartz surface, stone-flecked" loading="lazy">
+          <span class="stone-tag">Sparkle Grey</span>
+        </div>
+        <div class="stone-body">
+          <h3>Sparkle Grey</h3>
+          <p>Warm, stone-flecked and forgiving — it hides the everyday wear of a busy household beautifully.</p>
+          <div class="chips"><span class="chip">Family kitchens</span><span class="chip">Office desks</span><span class="chip">Utility rooms</span></div>
+        </div>
+      </article>
+
+      <article class="stone rv">
+        <div class="stone-swatch">
+          <img src="assets/img/stone-sparkle-white.jpg" alt="Sparkle White quartz vanity top with fine crystal chips" loading="lazy">
+          <span class="stone-tag">Sparkle White</span>
+        </div>
+        <div class="stone-body">
+          <h3>Sparkle White</h3>
+          <p>Soft ivory with glass-like crystal chips. Reflects light and lifts small, darker rooms.</p>
+          <div class="chips"><span class="chip">Vanities</span><span class="chip">Bright kitchens</span><span class="chip">Splashbacks</span></div>
+        </div>
+      </article>
+
+      <article class="stone rv">
+        <div class="stone-swatch">
+          <img src="assets/img/stone-pure-white.jpg" alt="Pure White quartz countertop with no veining" loading="lazy">
+          <span class="stone-tag">Pure White</span>
+        </div>
+        <div class="stone-body">
+          <h3>Pure White</h3>
+          <p>Smooth, seamless and completely uniform — no veining, no clutter. The minimalist's blank canvas.</p>
+          <div class="chips"><span class="chip">Minimalist kitchens</span><span class="chip">Desks</span><span class="chip">Reception counters</span></div>
+        </div>
+      </article>
+
+      <article class="stone rv">
+        <div class="stone-swatch">
+          <img src="assets/img/stone-calacatta.jpg" alt="Calacatta Fine quartz with soft grey veining on a white base" loading="lazy">
+          <span class="stone-tag">Calacatta Fine</span>
+        </div>
+        <div class="stone-body">
+          <h3>Calacatta Fine</h3>
+          <p>Marble-look veining on a bright white base — the classic luxury finish, without marble's maintenance.</p>
+          <div class="chips"><span class="chip">Islands</span><span class="chip">Vanities</span><span class="chip">Feature walls</span></div>
+        </div>
+      </article>
+    </div>
+
+    <div class="range-note rv">
+      <p><strong>Not sure which one?</strong> Bring your cabinet door or a photo of your space to the Graniteside showroom and we'll put the samples side by side under real light. Countertops are quoted per project once we have your measurements.</p>
+      <a class="btn btn-primary" href="#contact">Request a countertop quote</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FEATURE: GLASS DOORS ================= -->
+<section class="sec feature" id="doors">
+  <div class="wrap">
+    <div class="feature-media rv">
+      <img src="assets/img/wardrobe-dark.jpg" alt="Full-height aluminium glass wardrobe with warm LED lighting in a dark, contemporary bedroom" loading="lazy">
+      <div class="badge"><b>$100</b><small>per m²</small></div>
+    </div>
+    <div class="rv">
+      <div class="eyebrow">Aluminium &amp; glass</div>
+      <h2>The cupboard becomes the centrepiece.</h2>
+      <p class="lead">Slim matte-black aluminium frames, clear or tinted glass, and a warm oak interior lit from within. It's the detail that makes a bedroom look designed rather than furnished — and it works just as well on a kitchen pantry.</p>
+      <ul class="spec-list">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span><strong>Made to measure.</strong> We template your opening — floor to ceiling, corner runs, sloped walls.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span><strong>Integrated LED.</strong> Vertical strips or shelf lighting, wired in during the build.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span><strong>Hinged or sliding.</strong> Chosen to suit your room's clearance, with soft-close hardware.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span><strong>Matched interiors.</strong> Shelving and drawers built from our own melamine or gloss boards.</span></li>
+      </ul>
+      <a class="btn btn-primary" href="#contact">Get a door quote</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROCESS ================= -->
+<section class="sec process">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="eyebrow">How it works</div>
+      <h2>From first message to final fit.</h2>
+      <p class="lead">No guesswork and no surprise costs. Here's exactly what happens after you get in touch.</p>
+    </div>
+    <div class="steps">
+      <div class="step rv"><b>1</b><h3>Tell us the space</h3><p>Send rough dimensions or photos on WhatsApp, or drop into the workshop. We'll talk through options and budget.</p></div>
+      <div class="step rv"><b>2</b><h3>Measure &amp; quote</h3><p>We template on site so the fit is exact, then quote in writing — materials, edging, fabrication and fitting.</p></div>
+      <div class="step rv"><b>3</b><h3>Cut &amp; build</h3><p>Boards are cut and edged, stone is machined and polished, frames are assembled in our Graniteside workshop.</p></div>
+      <div class="step rv"><b>4</b><h3>Deliver &amp; install</h3><p>We deliver and fit, seal the joints, align the doors and leave the site clean.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GALLERY ================= -->
+<section class="sec gallery" id="gallery">
+  <div class="wrap">
+    <div class="sec-head center rv">
+      <div class="eyebrow center">Recent work</div>
+      <h2>Look closer.</h2>
+      <p class="lead" style="margin-inline:auto">Display pantries, dressing rooms and worktops we've designed, built and fitted. Tap any image to enlarge.</p>
+    </div>
+
+    <div class="gal-grid" id="gallery-grid">
+      <figure class="gal-item g-wide g-tall rv"><img src="assets/img/pantry-living.jpg" alt="Warm-toned display pantry with glass doors opening onto an open-plan living room" loading="lazy"><figcaption>Open-plan display pantry</figcaption></figure>
+      <figure class="gal-item rv"><img src="assets/img/pantry-dark.jpg" alt="Charcoal glass display cabinet with lit oak shelving beside a marble splashback" loading="lazy"><figcaption>Charcoal &amp; oak pantry</figcaption></figure>
+      <figure class="gal-item rv"><img src="assets/img/stone-sparkle-black.jpg" alt="Sparkle Black quartz island top with wine glasses and a serving board" loading="lazy"><figcaption>Sparkle Black island</figcaption></figure>
+      <figure class="gal-item rv"><img src="assets/img/wardrobe-grey.jpg" alt="Three-door glass wardrobe with hanging shirts and warm interior lighting" loading="lazy"><figcaption>Lit three-door wardrobe</figcaption></figure>
+      <figure class="gal-item rv"><img src="assets/img/pantry-green.jpg" alt="Glass-fronted tall pantry unit with brass accessories and stone splashback" loading="lazy"><figcaption>Tall glass pantry</figcaption></figure>
+      <figure class="gal-item g-wide rv"><img src="assets/img/wardrobe-light.jpg" alt="Wide aluminium glass wardrobe run with oak drawers in a bright bedroom" loading="lazy"><figcaption>Full-wall wardrobe run</figcaption></figure>
+      <figure class="gal-item rv"><img src="assets/img/stone-sparkle-white.jpg" alt="Sparkle White quartz double vanity top with undermount basins" loading="lazy"><figcaption>Sparkle White vanity</figcaption></figure>
+      <figure class="gal-item rv"><img src="assets/img/boards.jpg" alt="High gloss board samples in black, white and red stacked on marble" loading="lazy"><figcaption>High gloss board range</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHY ================= -->
+<section class="sec why">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="eyebrow">Why Stone &amp; Style</div>
+      <h2>Structural integrity, design sophistication.</h2>
+      <p class="lead">Our name is a promise: the durability of stone, the refinement of good design. It's how we choose materials and how we finish every edge.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card rv">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/></svg></span>
+        <h3>One workshop, one team</h3>
+        <p>Supply, cutting, edging, fabrication and fitting all happen under our roof — so nobody can pass the blame, and nothing gets lost between trades.</p>
+      </div>
+      <div class="why-card rv">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76Z"/></svg></span>
+        <h3>Measured, not estimated</h3>
+        <p>We template on site before anything is cut. That's why our panels drop into place instead of needing to be trimmed on your kitchen floor.</p>
+      </div>
+      <div class="why-card rv">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>
+        <h3>Straight answers on price</h3>
+        <p>Aluminium glass doors are quoted per square metre. Countertops are quoted per project once measured. Everything in writing, before we start.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="sec contact" id="contact">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Get in touch</div>
+      <h2>Tell us about your space.</h2>
+      <p class="lead">Send a photo and rough measurements on WhatsApp and we'll come back with options and an honest price. Or visit the workshop in Graniteside to see the boards and quartz samples in person.</p>
+      <div class="contact-actions">
+        <a class="btn btn-wa" href="https://wa.me/263785107913?text=Hi%20Stone%20%26%20Style%20Solutions%2C%20I%27d%20like%20a%20quote.%20Here%27s%20my%20project%3A" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37s-1.04 1.02-1.04 2.48 1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.42-.07-.12-.27-.2-.57-.35zM12.04 21.5h-.01a9.4 9.4 0 0 1-4.79-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.38 9.38 0 0 1-1.44-5.01c0-5.18 4.22-9.4 9.42-9.4a9.35 9.35 0 0 1 6.65 2.76 9.32 9.32 0 0 1 2.76 6.65c0 5.19-4.23 9.41-9.42 9.41zM20.52 3.49A11.78 11.78 0 0 0 12.04 0C5.5 0 .18 5.32.18 11.86c0 2.09.55 4.13 1.59 5.93L.08 24l6.35-1.66a11.83 11.83 0 0 0 5.61 1.43h.01c6.54 0 11.86-5.32 11.86-11.86 0-3.17-1.23-6.15-3.39-8.42z"/></svg>
+          Message us on WhatsApp
+        </a>
+        <a class="btn btn-ghost" href="tel:+263785107913">Call +263 78 510 7913</a>
+      </div>
+      <div class="mosaic-rule" style="margin-top:42px" aria-hidden="true">
+        <i style="background:#003756"></i><i style="background:#686a6c"></i><i style="background:#967357"></i><i style="background:#aa8c77"></i><i style="background:#64401e"></i><i style="background:#807e5c"></i>
+      </div>
+    </div>
+
+    <div class="info-card rv">
+      <div class="info-row">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span>
+        <div><h4>Workshop &amp; showroom</h4><p><a href="https://maps.google.com/?q=14+Telford+Road,+Graniteside,+Harare" target="_blank" rel="noopener">14 Telford Road<br>Graniteside, Harare</a></p></div>
+      </div>
+      <div class="info-row">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg></span>
+        <div><h4>Phone &amp; WhatsApp</h4><p><a href="tel:+263785107913">+263 78 510 7913</a></p></div>
+      </div>
+      <div class="info-row">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>
+        <div><h4>Opening times</h4>
+          <div class="hours">
+            <span>Monday – Friday <i>8:00am – 4:30pm</i></span>
+            <span>Saturday <i>8:00am – 12:00pm</i></span>
+            <span>Sunday <i>Closed</i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <img class="flogo" src="assets/img/logo-horizontal-white.png" alt="Stone &amp; Style Solutions">
+        <p>Boards supplier, cutting &amp; edging, aluminium glass doors for built-in cupboards, and quartz countertops for every surface in the home.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#range">Quartz range</a></li>
+          <li><a href="#doors">Aluminium glass doors</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Visit us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Find us</h4>
+        <ul>
+          <li><a href="https://maps.google.com/?q=14+Telford+Road,+Graniteside,+Harare" target="_blank" rel="noopener">14 Telford Road, Graniteside, Harare</a></li>
+          <li><a href="tel:+263785107913">+263 78 510 7913</a></li>
+          <li><a href="https://wa.me/263785107913" target="_blank" rel="noopener">WhatsApp us</a></li>
+          <li>Mon–Fri 8:00–16:30 · Sat 8:00–12:00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="yr">2026</span> Stone &amp; Style Solutions. All rights reserved.</span>
+      <span>Durability of stone. Refinement of style.</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/263785107913?text=Hi%20Stone%20%26%20Style%20Solutions%2C%20I%27d%20like%20a%20quote." target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37s-1.04 1.02-1.04 2.48 1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.42-.07-.12-.27-.2-.57-.35zM12.04 21.5h-.01a9.4 9.4 0 0 1-4.79-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.38 9.38 0 0 1-1.44-5.01c0-5.18 4.22-9.4 9.42-9.4a9.35 9.35 0 0 1 6.65 2.76 9.32 9.32 0 0 1 2.76 6.65c0 5.19-4.23 9.41-9.42 9.41zM20.52 3.49A11.78 11.78 0 0 0 12.04 0C5.5 0 .18 5.32.18 11.86c0 2.09.55 4.13 1.59 5.93L.08 24l6.35-1.66a11.83 11.83 0 0 0 5.61 1.43h.01c6.54 0 11.86-5.32 11.86-11.86 0-3.17-1.23-6.15-3.39-8.42z"/></svg>
+</a>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Enlarged image">
+  <button id="lightboxClose" aria-label="Close image">&times;</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<script>
+(function(){
+  var header = document.getElementById('header');
+  var onScroll = function(){ header.classList.toggle('scrolled', window.scrollY > 40); };
+  onScroll(); window.addEventListener('scroll', onScroll, {passive:true});
+
+  // mobile nav
+  var mob = document.getElementById('mobileNav');
+  var open = function(){ mob.classList.add('open'); document.body.style.overflow='hidden'; };
+  var close = function(){ mob.classList.remove('open'); document.body.style.overflow=''; };
+  document.getElementById('burger').addEventListener('click', open);
+  document.getElementById('mobileClose').addEventListener('click', close);
+  mob.querySelectorAll('a').forEach(function(a){ a.addEventListener('click', close); });
+
+  // reveal on scroll
+  var els = document.querySelectorAll('.rv');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e, i){
+        if (e.isIntersecting) {
+          var d = Array.prototype.indexOf.call(e.target.parentNode.children, e.target);
+          e.target.style.transitionDelay = Math.min(d,5) * 70 + 'ms';
+          e.target.classList.add('in');
+          io.unobserve(e.target);
+        }
+      });
+    }, {threshold:0.12, rootMargin:'0px 0px -60px 0px'});
+    els.forEach(function(el){ io.observe(el); });
+  } else {
+    els.forEach(function(el){ el.classList.add('in'); });
+  }
+
+  // lightbox
+  var lb = document.getElementById('lightbox'),
+      lbImg = document.getElementById('lightboxImg');
+  document.querySelectorAll('.gal-item').forEach(function(fig){
+    fig.addEventListener('click', function(){
+      var img = fig.querySelector('img');
+      lbImg.src = img.src; lbImg.alt = img.alt;
+      lb.classList.add('open'); document.body.style.overflow='hidden';
+    });
+  });
+  var lbClose = function(){ lb.classList.remove('open'); document.body.style.overflow=''; };
+  document.getElementById('lightboxClose').addEventListener('click', lbClose);
+  lb.addEventListener('click', function(e){ if (e.target === lb) lbClose(); });
+  document.addEventListener('keydown', function(e){ if (e.key === 'Escape'){ lbClose(); close(); } });
+
+  document.getElementById('yr').textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
